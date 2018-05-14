@@ -2,10 +2,11 @@ extern crate uuid;
 
 mod git;
 
-use git::repo::{ Repo };
+use git::repo::{ Repo, Settings };
 
 fn main() {
 
-    let repo = git::repo::Repo::new("test");
+    let settings = Settings::new();
+    let repo = git::repo::Repo::new("test", &settings);
 
 }
