@@ -4,3 +4,4 @@ version = "0.1.0"
 authors = ["kobus <dev.kobus@gmail.com>"]
 
 [dependencies]
+uuid = "0.6"

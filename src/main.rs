@@ -1,3 +1,11 @@
+extern crate uuid;
+
+mod git;
+
+use git::repo::{ Repo };
+
 fn main() {
-    println!("Hello, world!");
+
+    let repo = git::repo::Repo::new("test");
+
 }
